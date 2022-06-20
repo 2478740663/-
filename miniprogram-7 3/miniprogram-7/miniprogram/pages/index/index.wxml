@@ -1,0 +1,37 @@
+<view class="container1">实时显示</view>
+<view>是否显示当前信息：</view>
+<view class="kuang1">
+    <view class="kuang2">实时显示: {{xian}}-{{shi}}</view>
+          <view class="kuang3">当前经纬度：
+            <view class="kuang4">{{longitude}}-{{latitude}}</view>
+          </view>
+          <view class="kuang3">当前天气：
+            <view class="kuang4">{{tianqi}}</view>
+          </view>
+            <view class="kuang3">最低气温：
+               <view class="kuang4">{{diwen}}</view>
+            </view>
+            <view class="kuang3">最高气温：
+               <view class="kuang4">{{gaowen}}</view>
+            </view>
+          <view class="kuang3">风：
+            <view class="kuang4">{{feng}}</view>
+          </view>
+    <view class="kuang2">为你提供的建议：</view>
+          <view class="kuang3">穿衣：
+          <view class="kuang4">
+            <view wx:if="{{gaowen>=26}}">
+              <view>①涂防晒</view>
+              <view>②带遮阳伞</view>
+            </view>
+            <view wx:elif="{{gaowen<26&&gaowen>15}}">
+              <view>①温度合适</view>
+              <view>②适合游玩</view>
+            </view>
+            <view wx:else>
+              <view>①涂防晒</view>
+              <view>②带遮阳伞</view>
+            </view>
+          </view>
+          </view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/dier/dier.wxss */
+.aa1 image{
+  height: 300px;
+}

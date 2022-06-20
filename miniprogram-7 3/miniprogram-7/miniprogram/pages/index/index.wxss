@@ -1,0 +1,32 @@
+/**index.wxss**/
+.container1{
+   width: 750rpx; 
+   height: 104rpx; 
+   display: block; 
+   box-sizing:inherit; 
+   background: lightblue;
+   text-align: center;
+   color: rgb(4, 23, 36);
+}
+.kuang1{
+	background-color: #FFFFFF;
+	width: 690rpx;
+	margin: 32rpx auto;
+  border-radius: 16rpx;
+}
+ .kuang3 {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	padding: 40rpx;
+	min-height: 48rpx;
+  display: flex;
+  color: #292b8b;
+}
+.kuang1 .kuang2 .kuang3{
+	font-size: 32rpx;
+	width: 35%;
+}
+.kuang4{
+  color:rgb(129, 155, 58);
+}

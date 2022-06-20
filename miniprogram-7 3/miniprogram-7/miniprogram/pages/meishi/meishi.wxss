@@ -1,0 +1,14 @@
+/* pages/meishi/meishi.wxss */
+.name11{
+  height: 60px;
+  text-align: center;
+  color: #000;
+  background-color: rgb(196, 195, 185);
+}
+.meishi1{
+  color: rgb(197, 16, 25);
+}
+.meishi2{
+  background-color: rgb(220, 229, 233);
+  
+}

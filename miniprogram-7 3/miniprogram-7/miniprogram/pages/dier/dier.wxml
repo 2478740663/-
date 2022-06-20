@@ -1,0 +1,20 @@
+<!--pages/dier/dier.wxml-->
+<view class="aa1">
+   <image src="/images/5.png"></image>
+</view>
+ <button type="default" bindtap="meiShi" plain style="color: rgb(39, 124, 163); " >搞笑机器人</button>
+<view class="container2"></view>
+<view class='nav'>
+    <button type="default" plain style="color: rgb(39, 124, 163); " bindtap='search' data-type='酒店' class='nav-but'>酒店</button>
+    <button type="default"  plain style="color: rgb(39, 124, 163); "bindtap='search' data-type='美食' class='nav-but'>美食</button>
+    <button type="default"  plain style="color: rgb(39, 124, 163); "bindtap='search' data-type='书店' class='nav-but'>书店</button>                 
+  </view>
+
+  <view class='info'>
+  <navigator wx:for="{{perimeter}}" url="../routes/routes?latitude={{startlat}}&&longitude={{startlng}}&&latitude2={{item.location.lat}}&&longitude2={{item.location.lng}}"  class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">{{item.title}}</view>
+          <view class="weui-media-box__desc">位置：{{item.address}} </view> 
+      </view>
+  </navigator>
+</view>

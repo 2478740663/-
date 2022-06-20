@@ -1,0 +1,34 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/dier/dier",
+    
+    "pages/shiwu/shiwu",
+   
+  "pages/meishi/meishi" 
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "生活大师",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "实时",
+      "iconPath": "/images/1.png",
+      "selectedIconPath": "/images/3.png"
+    },
+    {
+      "pagePath": "pages/dier/dier",
+      "text": "建议",
+      "iconPath": "/images/2.png",
+      "selectedIconPath": "/images/4.png"
+    }]
+  
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
